@@ -13,10 +13,7 @@ const Navbar = () => {
       sx={{
         gap: {sm: '122px', xs: '40px'},
         mt: {sm: '32px', xs: '20px'},
-        justifyContent: 'none',
-        
-      }}
-    >
+        justifyContent: 'none',}}>
       <Link to="/">
         <img src={Logo} alt="logo" style={{
           width: '48px', 
@@ -28,17 +25,14 @@ const Navbar = () => {
         direction= 'row'
         gap='40px'
         fontSize='24px'
-        alignItems='flex-end'
-      >
+        alignItems='flex-end'>
         <Link to="/" style={{
           textDecoration:'none',
           borderBottom:'3px solid #FF2625',
-          color:"#3A1212",
-        }}>Home</Link>
+          color:"#3A1212",}}>Home</Link>
         <a href="#exercises" style={{
           textDecoration:'none',
-          color:"#3A1212"
-        }}>Exercises</a>
+          color:"#3A1212"}}>Exercises</a>
       </Stack>
     </Stack>
   )
